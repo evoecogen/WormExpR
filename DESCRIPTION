@@ -1,0 +1,40 @@
+Package: WormExpR
+Type: Package
+Title: WormExp Database Query Cleaning and Visualization
+Version: 1.0.0
+Date: 2023-04-14
+Authors@R: 
+    c(
+    person("Evolutionary Ecology and Genetics, University Kiel, Germany", role = "aut"),
+    person("Jennifer", "Neumaier", role = "aut"),
+    person("Hinrich", "Schulenburg", email = "hschulenburg@zoologie.uni-kiel.de", role = "cre"),
+    person("omics2view.consulting GbR, Kiel, Germany", role = c("com", "ctr"))
+    )
+Description:
+    Provides functions for cleaning and visualizing WormExp 
+    (https://wormexp.zoologie.uni-kiel.de/wormexp/) query results, internal 
+    functions for database maintenance.
+License: MIT + file LICENSE
+Depends:
+    R (>= 4.2.0)
+Imports:
+    ComplexHeatmap,
+    dplyr,
+    grDevices,
+    grid,
+    magrittr,
+    RColorBrewer,
+    readr,
+    readxl,
+    tibble,
+    tidyr,
+    utils
+Suggests: 
+    testthat (>= 3.0.0)
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/omics2view/WormExpR
+BugReports: https://github.com/omics2view/WormExpR/issues
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Config/testthat/edition: 3
