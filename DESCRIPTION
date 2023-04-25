@@ -2,7 +2,7 @@ Package: WormExpR
 Type: Package
 Title: WormExp Database Query Cleaning and Visualization
 Version: 1.0.0
-Date: 2023-04-14
+Date: 2023-04-25
 Authors@R: 
     c(
     person("Evolutionary Ecology and Genetics, University Kiel, Germany", role = "aut"),
